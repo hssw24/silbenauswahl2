@@ -39,10 +39,10 @@ function App() {
       <p>Lies vor, klicke und finde lustige Wörter:</p>
       <div className="button-container">
         <SyllableButton index={0} onSpeak={speakSyllable} />
-        <SyllableButton index={1} onSpeak={speakSyllable} />
-        <SyllableButton index={2} onSpeak={speakSyllable} />
         <SyllableButton index={0} onSpeak={speakSyllable} />
         <SyllableButton index={1} onSpeak={speakSyllable} />
+        <SyllableButton index={1} onSpeak={speakSyllable} />
+        <SyllableButton index={2} onSpeak={speakSyllable} />
         <SyllableButton index={2} onSpeak={speakSyllable} />
       </div>
       <p>Sprachausgabe ist wirklich schrottig!</p>
